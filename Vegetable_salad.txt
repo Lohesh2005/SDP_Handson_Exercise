@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Document</title>
+    <style>
+        body {
+            background-color: greenyellow;
+        }
+
+        .body-container {
+            text-align: center;
+            align-items: center;
+        }
+
+        #vegetableSaladImage {
+            width: 40%;
+            height: 40%;
+        }
+
+        .heading {
+            color: rgb(21, 21, 148);
+            font-size: 24px;
+        }
+
+        h3 {
+            color: rgb(31, 31, 231);
+            font-size: 28px;
+        }
+
+        #benefitsParagraph {
+            color: navy;
+        }
+
+        #stepForVegetableSalad {
+            display: inline-block;
+            text-align: left;
+            color: navy;
+        }
+        #footerText{
+            color: navy;
+            margin-top: 50px;
+            border-top:2px solid  wheat;
+        }
+    </style>
+</head>
+<body>
+    <div class="body-container">
+        <title id="titleName">Vegetable Salad</title>
+        <img width="850px" src="https://images2.alphacoders.com/108/1084626.jpg" id="vegetableSaladImage" alt="">
+        <h3 id="benefits">Benifits of Vegetable Salad</h3>
+        <p id="benifitsParagraph">a cold dish of various mixtures of raw or cooked vegetables, usually seasoned with oil, vinegar, or other dressing and sometimes accompanied by meat, fish, or other ingredients. "a green salad"</p>
+            <h3 id="steps">Steps to make Vegetable Salad</h3>
+            <ul id="stepForVegetableSalad">
+                <li>Take a large and clear glass bowl</li>
+                <li>Add fruits</li>
+                <li>Add roasted veggies</li>
+                <li>grate some of the vegetables for a different texture</li>
+                <li>Add dried fruirs, nuts and seeds</li>
+                <li>Use fresh coriander or chives instead of parsley</li>
+            </ul>
+            <footer id="footerText">This easy vegetable salad is packed with a variety of summer produce with all textures and colors one could ever want.</footer>
+    </div>
+    
+        
+        
+</body>
+</html>
